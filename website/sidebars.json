@@ -1,11 +1,115 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"],
-    "Getting started": ["intro"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "التنصيب و التهيئة": [
+      "git",
+      "config",
+      "help"
+    ],
+    "البدء وإنشاء مشاريع": [
+      "init",
+      "clone"
+    ],
+    "لمحات أساسية": [
+      "add",
+      "status",
+      "diff",
+      "commit",
+      "reset",
+      "rm",
+      "mv"
+    ],
+    "الفروع ودمج": [
+      "branch",
+      "checkout",
+      "merge",
+      "mergetool",
+      "log",
+      "stash",
+      "tag",
+      "worktree"
+    ],
+    "المشاركة وتحديث المشاريع": [
+      "fetch",
+      "pull",
+      "push",
+      "remote",
+      "submodule"
+    ],
+    "الفحص والمقارنة": [
+      "show",
+      "log",
+      "diff",
+      "shortlog",
+      "describe"
+    ],
+    "الترقيع": [
+      "apply",
+      "cherry-pick",
+      "diff",
+      "rebase",
+      "revert"
+    ],
+    "التصحيح": [
+      "bisect",
+      "blame",
+      "grep"
+    ],
+    "الإشادات": [
+      "gitattributes",
+      "Everyday Git",
+      "Glossary",
+      "githooks",
+      "gitignore",
+      "gitmodules",
+      "Revisions",
+      "Tutorial",
+      "Workflows"
+    ],
+    "البريد الإلكتروني": [
+      "am",
+      "apply",
+      "format-patch",
+      "send-email",
+      "request-pull"
+    ],
+    "الأنظمة الخارجية": [
+      "svn",
+      "fast-import"
+    ],
+    "الإدارة": [
+      "clean",
+      "gc",
+      "fsck",
+      "reflog",
+      "filter-branch",
+      "instaweb",
+      "archive",
+      "bundle"
+    ],
+    "الخادم مشرف ": [
+      "daemon",
+      "update-server-info"
+    ],
+    "الأوامر الترقيعية": [
+      "cat-file",
+      "check-ignore",
+      "checkout-index",
+      "commit-tree",
+      "count-objects",
+      "diff-index",
+      "for-each-ref",
+      "hash-object",
+      "ls-files",
+      "merge-base",
+      "read-tree",
+      "rev-list",
+      "rev-parse",
+      "show-ref",
+      "symbolic-ref",
+      "update-index",
+      "update-ref",
+      "verify-pack",
+      "write-tree"
+    ]
   }
 }
