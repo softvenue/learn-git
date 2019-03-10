@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/docusaurus.svg',
-    infoLink: 'https://www.learn-git.ga',
+    infoLink: 'https://learn-git.ga',
     pinned: true,
   },
 ];
@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Learn GIT', // Title for your website.
   tagline: 'A website for learning git',
   url: 'https://learn-git.ga', // Your website URL
-  baseUrl: '/learn-git/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
