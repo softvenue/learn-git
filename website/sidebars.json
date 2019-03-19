@@ -1,11 +1,114 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"],
-    "Getting started": ["intro"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "التثبيت و التهيئة": [
+      "Setup_and_Config/git",
+      "Setup_and_Config/config",
+      "Setup_and_Config/help"],
+    "البدء و إنشاء مشاريع": [
+      "Getting_and_Creating_Projects/init",
+      "Getting_and_Creating_Projects/clone"
+    ],
+    "لمحة على الأساسيات": [
+      "Basic_Snapshotting/add",
+      "Basic_Snapshotting/status",
+      "Basic_Snapshotting/diff",
+      "Basic_Snapshotting/commit",
+      "Basic_Snapshotting/reset",
+      "Basic_Snapshotting/rm",
+      "Basic_Snapshotting/mv"
+    ],
+    "التفرعة و الدمج": [
+      "Branching_an_Merging/branch",
+      "Branching_an_Merging/checkout",
+      "Branching_an_Merging/merge",
+      "Branching_an_Merging/mergetool",
+      "Branching_an_Merging/log",
+      "Branching_an_Merging/stash",
+      "Branching_an_Merging/tag",
+      "Branching_an_Merging/worktree"
+    ],
+    "المشاركة و تحديث المشاريع": [
+      "Sharing_and_Updating_Projects/fetch",
+      "Sharing_and_Updating_Projects/pull",
+      "Sharing_and_Updating_Projects/push",
+      "Sharing_and_Updating_Projects/remote",
+      "Sharing_and_Updating_Projects/submodule"
+    ],
+    "الفحص والمقارنة": [
+      "Inspection_and_Comparison/show",
+      "Inspection_and_Comparison/log",
+      "Inspection_and_Comparison/diff",
+      "Inspection_and_Comparison/shortlog",
+      "Inspection_and_Comparison/describe"
+    ],
+    "تصحيح": [
+      "Patching/apply",
+      "Patching/cherry-pick",
+      "Patching/diff",
+      "Patching/rebase",
+      "Patching/revert"
+    ],
+    "المعالجة": [
+      "Debugging/bisect",
+      "Debugging/blame",
+      "Debugging/grep"
+    ],
+    "الإشادات": [
+      "Guides/gitattributes",
+      "Guides/Everyday Git",
+      "Guides/Glossary",
+      "Guides/githooks",
+      "Guides/gitignore",
+      "Guides/gitmodules",
+      "Guides/Revisions",
+      "Guides/Tutorial",
+      "Guides/Workflows"
+    ],
+    "Email": [
+      "Email/am",
+      "Email/apply",
+      "Email/format-patch",
+      "Email/send-email",
+      "Email/request-pull"
+    ],
+    "الأنظمة الخارجية": [
+      "External_Systems/svn",
+      "External_Systems/fast-import"
+    ],
+    "الإدارة": [
+      "Administration/clean",
+      "Administration/gc",
+      "Administration/fsck",
+      "Administration/reflog",
+      "Administration/filter-branch",
+      "Administration/instaweb",
+      "Administration/archive",
+      "Administration/bundle"
+    ],
+    "الخادم المسؤول": [
+      "Server_Admin/daemon",
+      "Server_Admin/update-server-info"
+    ],
+    "أوامر الترقيع": [
+      "Plumbing_Commands/cat-file",
+      "Plumbing_Commands/check-ignore",
+      "Plumbing_Commands/checkout-index",
+      "Plumbing_Commands/commit-tree",
+      "Plumbing_Commands/count-objects",
+      "Plumbing_Commands/diff-index",
+      "Plumbing_Commands/for-each-ref",
+      "Plumbing_Commands/hash-object",
+      "Plumbing_Commands/ls-files",
+      "Plumbing_Commands/merge-base",
+      "Plumbing_Commands/read-tree",
+      "Plumbing_Commands/rev-list",
+      "Plumbing_Commands/rev-parse",
+      "Plumbing_Commands/show-ref",
+      "Plumbing_Commands/symbolic-ref",
+      "Plumbing_Commands/update-index",
+      "Plumbing_Commands/update-ref",
+      "Plumbing_Commands/verify-pack",
+      "Plumbing_Commands/write-tree"
+    ]
   }
 }
