@@ -1,5 +1,16 @@
 /* your custom css */
-
+.post {
+    direction: rtl;
+    text-align: right;
+}
+.hljs {
+    direction: ltr ;
+    text-align: left ;
+    display: block;
+    overflow-x: auto;
+    color: #f0f2f5;
+    background: #212838;
+}
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
