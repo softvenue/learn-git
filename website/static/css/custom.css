@@ -1,7 +1,25 @@
 /* your custom css */
+body {
+    direction: rtl;
+}
+.fixedHeaderContainer {
+    direction: ltr;
+}
 .post {
     direction: rtl;
     text-align: right;
+}
+.onPageNav {
+    top: 50px;
+}
+.sitemap > :last-child > :last-child {
+    direction: ltr
+}
+.hash-link {
+    margin-left: 0;
+}
+ul {
+    padding: 0 55px
 }
 .hljs {
     direction: ltr ;
@@ -15,6 +33,12 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .onPageNav > .toc-headings {
+        border-right: 1px solid #302b63;
+        border-left: 0;
+        padding: 10px 15px 2px 0;
+    }
+    
 }
 
 @media only screen and (max-width: 1023px) {
