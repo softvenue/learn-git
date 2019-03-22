@@ -14,7 +14,7 @@ const users = [
     caption: 'User',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    image: '/img/learn-git.svg',
     infoLink: 'https://learn-git.ga',
     pinned: true,
   },
@@ -46,18 +46,18 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/learn-git.svg',
+  footerIcon: 'img/learn-git.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#302b63',
+    secondaryColor: '#A7BFE8',
   },
 
   /* Custom fonts for website */
-  /*
+ /*
   fonts: {
     myFont: [
       "Times New Roman",
@@ -71,7 +71,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} SoftVenue`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -87,8 +87,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/learn-git.png',
+  twitterImage: 'img/learn-git.png',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -98,7 +98,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+     repoUrl: 'https://github.com/InterstellarClub/learn-git',
 };
 
 module.exports = siteConfig;
