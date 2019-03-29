@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Learn GIT', // Title for your website.
-  tagline: 'A website for learning git',
+  title: 'تعلم GIT', // Title for your website.
+  tagline: 'تعلم GIT للمبدئين',
   url: 'https://learn-git.ga', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,7 +39,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'reference', label: 'Reference'}
+    {doc: 'reference', label: 'الوثائق'}
   ],
 
   // If you have users set above, you add it here:
@@ -52,8 +52,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#302b63',
-    secondaryColor: '#A7BFE8',
+    primaryColor: '#3621e5',
+    secondaryColor: '#6251ea',
   },
 
   /* Custom fonts for website */
