@@ -31,7 +31,7 @@ class HomeSplash extends React.Component {
 
     const Logo = props => (
       <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+        <img src={"/img/branching.png"} alt="learn git Logo" />
       </div>
     );
 
@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
+            <Button href={docUrl('reference.html')}>الوثائق</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
         </div>
