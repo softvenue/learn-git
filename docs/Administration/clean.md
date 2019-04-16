@@ -98,11 +98,4 @@ git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​
 
 ### help 
 عرض استخدام موجز للتفاعل 
-git-clean
-
-
-
-
-
-
 
